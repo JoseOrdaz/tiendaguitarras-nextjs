@@ -1,6 +1,7 @@
 import Layout from "../components/layout"
-
+import ListadoGuitarras from "../components/listado-guitarras"
 import styles from '../styles/grid.module.css'
+
 
 export default function Tienda() {
 
@@ -13,6 +14,7 @@ export default function Tienda() {
             <h1 className="heading">Nuestra Colección</h1>
 
             <div className={styles.grid}>
+              <ListadoGuitarras />
              
             </div>
         </main>
