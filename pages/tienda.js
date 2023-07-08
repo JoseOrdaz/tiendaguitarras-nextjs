@@ -1,5 +1,4 @@
 import Layout from "../components/layout";
-import ListadoGuitarras from "../components/guitarra";
 import styles from "../styles/grid.module.css";
 import Guitarra from "../components/guitarra";
 
